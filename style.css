@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Smooch+Sans:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+h2 {
+    font-family: "Smooch Sans", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(248, 245, 240);
+    color: rgb(55, 45, 38);
+}
+
+header {
+    background-color: rgb(35, 27, 22);
+    padding: 20px 40px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+}
+
+header h1 {
+    color: rgb(218, 174, 76);
+    text-align: center;
+    margin: 5px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(176, 70, 70);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(218, 174, 76);
+}
+
+#home {
+    background-color: rgb(91, 61, 39);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 40px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+}
+
+#home h1 {
+    font-size: 50px;
+    margin: 10px;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+#home p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+#home a,
+#home button {
+    display: inline-block;
+    background-color: rgb(176, 135, 55);
+    color: rgb(177, 111, 91);
+    padding: 14px 25px;
+    margin: 15px 8px;
+    border: 2px solid rgb(218, 174, 76);
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#about {
+    background-color: rgb(255, 255, 255);
+    padding: 70px 40px;
+    text-align: center;
+}
+
+#about h2 {
+    color: rgb(91, 61, 39);
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+#about p {
+    line-height: 1.7;
+}
+
+.feature {
+    display: inline-block;
+    width: 220px;
+    min-height: 130px;
+    padding: 25px;
+    margin: 15px;
+    background-color: rgb(245, 240, 232);
+    border: 2px solid rgb(176, 135, 55);
+    box-shadow: 6px 6px 15px rgb(120, 100, 80);
+    vertical-align: top;
+}
+
+.feature div h3 {
+    color: rgb(176, 135, 55);
+    font-size: 20px;
+}
+#menu {
+    background-color: rgb(239, 229, 214);
+    padding: 70px 40px;
+    text-align: center;
+}
+
+#menu h2 {
+    color: rgb(91, 61, 39);
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+#menu div {
+    display: inline-block;
+    width: 250px;
+    min-height: 240px;
+    padding: 25px;
+    margin: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(176, 135, 55);
+    box-shadow: 0 5px 0 rgb(140, 109, 22);
+    vertical-align: top;
+}
+
+#menu div h3 {
+    color: rgb(91, 61, 39);
+    font-size: 22px;
+}
+
+#menu div p {
+    color: rgb(70, 60, 50);
+    line-height: 1.6;
+}
+
+#menu div a {
+    display: inline-block;
+    background-color: rgb(176, 135, 55);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 2px solid rgb(91, 61, 39);
+    box-shadow: 0 4px 0 rgb(140, 109, 22);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section h2 {
+    text-align: center;
+    color: rgb(91, 61, 39);
+}
+
+section article {
+    display: inline-block;
+    width: 260px;
+    min-height: 180px;
+    padding: 25px;
+    margin: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(176, 135, 55);
+    box-shadow: 6px 6px 15px rgb(120, 100, 80);
+    vertical-align: top;
+}
+
+section article h3 {
+    color: rgb(176, 135, 55);
+}
+
+section article p {
+    line-height: 1.6;
+}
+
+/* RESERVATION */
+
+#reservation {
+    background-color: #f8f3eb;
+}
+
+#reservation form {
+    max-width: 700px;
+    margin: 40px auto 0;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#reservation label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+
+#reservation input {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1px solid #d6cec5;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+#reservation input:focus {
+    border-color: #d4af37;
+}
+
+#reservation button {
+    width: 100%;
+    padding: 14px;
+    background-color: #211a16;
+    color: #ffffff;
+    border: 1px solid #211a16;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#reservation button:hover {
+    background-color: #d4af37;
+    color: #211a16;
+}
+#contact {
+    background-color: rgb(255, 255, 255);
+    padding: 70px 40px;
+    text-align: center;
+}
+
+#contact p {
+    line-height: 1.8;
+}
+
+footer {
+    background-color: rgb(35, 27, 22);
+    color: rgb(255, 255, 255);
+    padding: 60px 40px;
+    margin-top: 70px;
+    text-align: center;
+    box-shadow: 0 -4px 10px rgb(0, 0, 0);
+}
+
+footer p {
+    margin: 10px;
+}
